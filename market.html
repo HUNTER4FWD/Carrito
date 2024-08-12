@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="marketStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MARKET</title>
+</head>
+<body>
+
+    <header><h1>Need4Speed</h1></header>
+    
+    <div class="textoIntro">
+        <h2 class="textoUp">
+            En N4S, ofrecemos los superautos más exclusivos del mundo. Representamos marcas icónicas como Ferrari, Lamborghini y Bugatti, garantizando lujo, rendimiento e innovación en cada vehículo. Con nosotros, no solo compras un auto, sino una experiencia única y el prestigio de conducir lo mejor.
+        </h2>
+    </div>
+    
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="/super cars carrousel/adv_1_blue_bmw_m3_e46-wallpaper-1280x800.jpg" alt="BMW M3 E46 blue car">
+            <img src="/super cars carrousel/ferrari_458_italia_5-wallpaper-1280x800.jpg" alt="Ferrari 458 Italia">
+            <img src="/super cars carrousel/jaguar_rs-wallpaper-1280x800.jpg" alt="Jaguar RS">
+            <img src="/super cars carrousel/audi_tt_rs_2017-wallpaper-1280x800.jpg" alt="Audi TT RS 2017">
+        </div>
+    </div>
+    <section class="contenedor">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="video/vecteezy_3d-rendered-orange-colored-super-car-running-on-street-at_34634300.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+        <div class="contenedorItems">
+            <div class="item">
+                <span class="tituloItem">BMW M4</span>
+                <img src="list-autos-img/m4.jpg" alt="BMW M4" class="imgItem">
+                <span class="precioItem">$175.000</span>
+                <button class="btnItem">Comprar</button>
+            </div>
+            <div class="item">
+                <span class="tituloItem">SUPRA MK4</span>
+                <img src="list-autos-img/Supra-Mk4-2.jpg" alt="SUPRA MK4" class="imgItem">
+                <span class="precioItem">$63.000</span>
+                <button class="btnItem">Comprar</button>
+            </div>
+            <div class="item">
+                <span class="tituloItem">Lamborghini Veneno</span>
+                <img src="list-autos-img/venenolamb.jpg" alt="Lamborghini Veneno" class="imgItem">
+                <span class="precioItem">$900.000</span>
+                <button class="btnItem">Comprar</button>
+            </div>
+            <div class="item">
+                <span class="tituloItem">Chevrolet Corvette C6</span>
+                <img src="list-autos-img/chevrolet corvette c6.jpg" alt="Chevrolet Corvette C6" class="imgItem">
+                <span class="precioItem">$60.000</span>
+                <button class="btnItem">Comprar</button>
+            </div>
+            <div class="item">
+                <span class="tituloItem">Mazda MX-5 Miata</span>
+                <img src="list-autos-img/mazda MX-5-1.jpg" alt="Mazda MX-5 Miata" class="imgItem">
+                <span class="precioItem">$40.000</span>
+                <button class="btnItem">Comprar</button>
+            </div>
+            <div class="item">
+                <span class="tituloItem">Ford Mustang</span>
+                <img src="list-autos-img/ford-mustang-wallpaper-41.jpg" alt="Ford Mustang" class="imgItem">
+                <span class="precioItem">$32.000</span>
+                <button class="btnItem">Comprar</button>
+            </div>
+            <div class="item">
+                <span class="tituloItem">Nissan 370Z</span>
+                <img src="list-autos-img/nissan nismo.jpg" alt="Nissan 370Z" class="imgItem">
+                <span class="precioItem">$39.000</span>
+                <button class="btnItem">Comprar</button>
+            </div>
+            <div class="item">
+                <span class="tituloItem">Lotus Emira</span>
+                <img src="list-autos-img/LOTUS.jpg" alt="Lotus Emira" class="imgItem">
+                <span class="precioItem">$109.000</span>
+                <button class="btnItem">Comprar</button>
+            </div>
+        </div>
+
+        <div class="carrito"> 
+            <div class="headerCarrito">
+                <h2>Tu carrito</h2>
+            </div>
+            <div class="carritoItems">
+                <!-- Items will be dynamically added here -->
+            </div>
+
+            <div class="carritoTotal">
+                <div class="fila">
+                    <strong>Total A Pagar</strong>
+                    <span class="carritoPrecioTotal">$0,00</span>
+                </div>
+                <button class="btnPagar">Pagar<i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+<p class="footerText">todos los derechos me la pelan©</p>
+<a href="https://github.com/HUNTER4FWD" target="_blank">
+    <i class="fab fa-github"></i>  </a>
+    <a href="https://www.facebook.com/jdmaster62/" target="_blank" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    </footer>
+    <script src="marketScript.js"></script>
+</body>
+</html>
